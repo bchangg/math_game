@@ -5,7 +5,7 @@ require './player'
 class Game
   attr_accessor :first, :second, :operator
 
-  def initilize
+  def initialize
     @first = 0
     @second = 0
     @operator = 'plus'
